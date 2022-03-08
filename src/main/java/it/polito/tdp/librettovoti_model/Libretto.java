@@ -33,9 +33,9 @@ public class Libretto {
 	 * @return punteggio numerico, oppure {@code null} null se esame non esiste  
 	 */
 	public Integer puntiEsame(String nome) {
-		for (Voto v : this.voto) {
+		for (Voto v : this.voti) {
 			if (v.getNome().equals(nome)) { // comparare le stringe NON ==(solo numeri) ma equals
-				return v.getPunti;
+				return v.getPunti();
 			}
 		}
 		//return -1;
@@ -60,9 +60,9 @@ public class Libretto {
 			return false;		
 	}
 	
-	//public String toString() {
-	//	return this.voti.toString();
-	//}
+	public String toString() {
+		return this.voti.toString();
+	}
 	
 		
 		
