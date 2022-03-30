@@ -1,4 +1,4 @@
-package it.polito.tdp.librettovoti_model;
+ package it.polito.tdp.librettovoti_model;
 
 public class TestLibretto {
 
